@@ -20,10 +20,8 @@ class CustomView : NSView {
         let ctx = NSGraphicsContext.current!.cgContext
         ctx.setBlendMode(CGBlendMode.multiply)
         ctx.setFillColor(NSColor.yellow.cgColor)
-        if needsToDraw(dirtyRect) {
-            ctx.fill(dirtyRect)
-            ctx.stroke(dirtyRect)
-        }
+        ctx.fill(self.bounds)
+        ctx.stroke(self.bounds)
     }
     
     override var isFlipped: Bool {

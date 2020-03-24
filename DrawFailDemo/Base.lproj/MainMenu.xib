@@ -695,9 +695,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xef-Be-XeH">
+                    <scrollView autoresizesSubviews="NO" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xef-Be-XeH">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
-                        <clipView key="contentView" copiesOnScroll="NO" id="TZo-i3-Msw">
+                        <clipView key="contentView" autoresizesSubviews="NO" copiesOnScroll="NO" id="TZo-i3-Msw">
                             <rect key="frame" x="1" y="1" width="478" height="358"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
